@@ -1,0 +1,5 @@
+print('Gabriel Oliveira')
+print(2 ,'Gabriel "Oliveira"')
+print("Gabriel Pinto")
+print("Gabriel \"Oliveira\"")
+print(r"Gabriel \"Olibeira\"")
