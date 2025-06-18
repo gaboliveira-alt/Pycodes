@@ -29,5 +29,3 @@ for char in text:
     new_text += f'*{char}'
     print(char)
 print(new_text)
-
-
