@@ -1,3 +1,5 @@
+import os
+
 
 trys_user = ''
 secret_word = 'python'
@@ -28,6 +30,7 @@ while True:
     
     
     if revelead_word == secret_word:
+        os.system('cls')
         print('Parabens voce descobriu!')
         print('A Palavra secreta era:', secret_word)
         print('Tentativas:', count)
