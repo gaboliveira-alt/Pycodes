@@ -2,7 +2,7 @@
 def find_duplicate(duplicate_lists):
     
     checked_numbers = set()
-    first_duplicate =  -1
+    first_duplicate = -1
     
     
     for number in duplicate_lists:
