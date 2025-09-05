@@ -36,3 +36,5 @@ products_sorted_price = [
 ]
 
 print(*products_sorted_price, sep='\n')
+print()
+print(*products, sep='\n')
