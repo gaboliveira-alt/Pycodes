@@ -67,6 +67,7 @@ print(new_string01)
 
 chars_number01 = 5
 new_string02 = [string[char_index:char_index + chars_number01] for char_index in range(0, len(string), chars_number01)]
+print(new_string02)
 
 new_string03 = '.'.join([string[char_index:char_index + chars_number] for char_index in range(0, len(string), chars_number)])
 print(new_string03)
