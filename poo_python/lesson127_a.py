@@ -1,6 +1,6 @@
 import json
 
-PATH_FILE = 'C:\\Users\kylor\\OneDrive\\Documentos\\GitHub\\Pycodes\\poo_python\\'
+PATH_FILE = 'C:\\Users\\kylor\\OneDrive\\Documentos\\GitHub\\Pycodes\\poo_python\\'
 PATH_FILE += 'lesson127.json'
 
 
