@@ -5,5 +5,5 @@
         "markdown": false,
         "scminput": false
     },
-    "python.analysis.typeCheckingMode": "standard"
+    "python.analysis.typeCheckingMode": "off"
 }
