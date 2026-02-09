@@ -30,7 +30,7 @@ class ManuFacturer:
     def show_profile_cars(self):
         print()
         print(f'Fabricante: {self.name}.')
-        print(f'Tipo de Motor: {self.engine}.\n')
+        print(f'Tipo de Motor: {self.engine.name}.\n')
         print('-' * 15)
         
         for car in self._cars:

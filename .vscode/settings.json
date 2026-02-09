@@ -5,5 +5,6 @@
         "markdown": false,
         "scminput": false
     },
-    "python.analysis.typeCheckingMode": "off"
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "standard",
 }
