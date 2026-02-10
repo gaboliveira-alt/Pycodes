@@ -1,9 +1,9 @@
 
 from person import Person
-import accounts
+from accounts import Account
 
 
 class Client(Person):
-    def __init__(self, name, age):
+    def __init__(self, name: str, age: int, type_account: Account):
         super().__init__(name, age)
-        self._type_account: accounts.Account | None = None
+        self.type_account: Account = type_account
