@@ -15,7 +15,7 @@ class Cat(Animal):
         cyan_print(f"{self.name=!r} faz miau miau")
 
 class Car:
-    def __init__(self, name: str):
+    def __init__(self, name: str) -> None:
         self.name = name
 
 
