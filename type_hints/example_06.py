@@ -74,7 +74,7 @@ class Person:
         )
     _new_address_index: int = 0
 
-    def add_address(self, *addresses:Address) -> None:
+    def add_address(self, *addresses: Address) -> None:
         for address in addresses:
             self._address[self._new_address_index] = address
             self._new_address_index += 1
