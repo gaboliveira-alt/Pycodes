@@ -20,4 +20,3 @@ yellow_print = make_print(style="yellow")
 blue_print = make_print(style="blue")
 magenta_print = make_print(style="magenta")
 cyan_print = make_print(style="cyan")
-
