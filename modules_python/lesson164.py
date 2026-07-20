@@ -10,7 +10,7 @@ loan_date_final = datetime.strptime("2025-12-20", "%Y-%m-%d")
 dates_loan = relativedelta(loan_date, loan_date_final)
 
 date_installments: list[datetime] = []
-while loan_date < loan_date_final:
+while loan_date <= loan_date_final:
     date_installments.append(loan_date)
     loan_date += relativedelta(months=+1)
 
