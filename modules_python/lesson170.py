@@ -4,6 +4,7 @@ from itertools import count
 path_notebook: str = os.path.join(
     "\\Users", "kylor", "OneDrive", "Documentos", "Artigos_China"
     )
+
 counter = count()
 
 for root, dirs, files in os.walk(path_notebook):
