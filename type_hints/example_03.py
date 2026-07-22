@@ -3,7 +3,7 @@ from utils import cyan_print, sep_print
 
 
 class Animal:
-    def __init__(self, name: str):
+    def __init__(self, name: str) -> None:
         self.name = name
 
     def make_sound(self) -> None:
