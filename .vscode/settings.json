@@ -41,6 +41,7 @@
   "python.analysis.autoImportCompletions": true,
   "python.terminal.activateEnvInCurrentTerminal": true,
   "python.terminal.activateEnvironment": true,
+  "python.terminal.useEnvFile": true,
   "python.languageServer": "Pylance",
   "python.venvPath": ".venv",
 
